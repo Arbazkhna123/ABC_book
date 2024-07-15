@@ -1,0 +1,80 @@
+.main_div {
+    /* Additional styles can be added if needed */
+}
+
+.a_to_z {
+    font-size: 50px;
+    color: brown;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+}
+
+.a_to_z:hover {
+    color: blueviolet;
+    background-color: aqua;
+}
+
+.a_div>a {
+    background-color: rgb(51, 134, 99);
+    padding: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.a_div>a:hover {
+    background-color: rgb(27, 167, 171);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.parent {
+    display: flex;
+    margin: 40px 0px auto 0;
+    border-radius: 10px;
+}
+
+.abc {
+    font-size: 50px;
+}
+
+.child1 {
+    background-color: black;
+    color: aliceblue;
+    height: 250px;
+    
+}
+
+.child2 {
+    background-color: rgb(233, 174, 23);
+    height: 250px;
+   
+    
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(0, 131, 114);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+i {
+    font-size: 40px;
+    margin: 20px 0 0 0px;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+marquee{
+    font-size: 20px;
+    background-color: rgb(41, 157, 161);
+    color: white;
+}
